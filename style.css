@@ -1,0 +1,115 @@
+/*HTML*/
+
+/*HEADER1*/
+
+.header1 {
+
+    padding: 20px ;
+    text-align: center;
+    background: #A14A76;
+    color: #FBC2B5;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+
+}
+
+.header1 h1 {
+    font-size: 50px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .letter {
+    padding-top: 0px;
+}
+
+
+.header2 {
+    background-color: #FFA8A9;
+    color: #F786AA;
+    font-family: 'Fredericka the Great', cursive;
+    padding: 20px;
+    text-align: center;
+}
+
+.header2 a {
+    float: center;
+    color: #C58882;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+/*LETTERS1*/
+
+
+.letter1 {
+    padding: 100px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #FBC2B5;
+    color: #A14A76;
+}
+
+.letter1 h3 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+.letter1 p {
+    font-family: 'Domine', serif;
+    font-size: 22px;
+    text-align: justify;
+
+}
+img {
+  border-radius: 70%;
+}
+
+
+/*LETTERS2*/
+.letter2 {
+    padding: 100px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #FBC2B5;
+    color: #A14A76;
+
+}
+
+.letter2 h3 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+
+}
+.letter2 p {
+    font-family: 'Domine', serif;
+    font-size: 22px;
+    text-align: justify;
+}
+
+/*LETTERS3*/
+.letter3 {
+    padding: 100px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #FBC2B5;
+    color: #A14A76;
+
+}
+
+.letter3 h3 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+
+}
+.letter3 p {
+    font-family: 'Domine', serif;
+    font-size: 22px;
+    text-align: justify;
+}

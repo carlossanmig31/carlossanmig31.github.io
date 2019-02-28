@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <title> Carlos Gabriel R. San Miguel </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Domine|Fredericka+the+Great|Great+Vibes|Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="maincode.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        div.letter1 {
+            text-indent: 50px;
+        }
+
+        div.letter2 {
+            text-indent: 50px;
+        }
+
+        div.letter3 {
+            text-indent: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header1">
+        <h1> To The People I Hold Dear To My Heart </h1>
+
+
+    </div>
+
+    <div class="header2" id="moving">
+
+        <a href="#letter1"> Mom | </a>
+        <a href="#letter2"> Lola | </a>
+        <a href="#letter3"> Crush | </a>
+        <a href="https://carlossanmig.github.io/"> About the Author </a>
+    </div>
+
+
+    <div class="letter1" id="letter1">
+        <picture id="Mom">
+            <img src="Mom.jpg" width="350" height="500">
+        </picture>
+        <h3> To: My Dearest Mother, </h3>
+        <p> I can still recall that times growing up where in you would pick me and my brother up from school after a long and exhausted day at work. I can also recall the countless bedtime stories you would tell us before we would go to be just so we can fall asleep at peace. I will also never forget the countless arguements and debates we have had just so I can go out with my friends. Deep down inside I know you just want what is best for me and my brother and for that I am super thankful.</p>
+        <p> I will also keep in to heart how much you love us and how much you had to endure just to provide for us. You are one of the most hardworking people that I know and you do everything for this family. I know at times I am not the best son you could possibly have but I want you to know that you mean the world to me. You were the one that taught us how to live life without any regrets. You taught us to brave. You taught us to be kind, and to think about the well-being of other people too. I never hesitated to open up to for I knew that you would always have my best intrest. I wouldn't be the person who I am today if it wasn't for you. I Love you Mom.</p>
+
+    </div>
+
+    <div class="letter2" id="letter2">
+        <picture id="Lola">
+            <img src="Lola.jpg" width="300" height="500">
+        </picture>
+        <h3> To: My Dearest Lola, </h3>
+        <p> Thank you Lola for always reminding my brother and I to pray. You have taught us the importance of faith and religion in our lives and how we must value God. You taught us that Jesus loved us and that even the tiniest things matter to him. You always told us no prayer is too small and no prayer is too big. You have instilled in us strong faith and for that we are thankful.
+        </p>
+        <p> Thank you Lola for raising Mom up to be this strong and independent woman and for always taking care of her when she was growing up. Thanks you for always feeding us when we are hungry and we want a quick snack. Thanks for always driving us to places when Mom and Dad are not around. We Love you Lola.
+        </p>
+
+    </div>
+
+    <div class="letter3" id="letter3">
+        <picture>
+            <img src="Crush.jpg" width="300" height="300">
+        </picture>
+        <h3> To: My Dearest Crush,</h3>
+        <p> I know you don't know this but I kinda like you.
+        </p>
+        <p>
+        </p>
+
+    </div>
+
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var header = document.getElementById("moving");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
